@@ -5,23 +5,29 @@
     z-index: 100000;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
+.container-menu-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 15px;
+    color: #FFFFFF;
     display: block;
     transition: 0.3s;
 }
 
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: gray;
 }
 
 .sidebar .closebtn {
@@ -370,53 +376,53 @@ h3 {
 }
 
 .logist{
-    background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.64)),
-    url('images/truck-1103291_640.jpg');
+    background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.4)),
+    url('images/resourse.jpg') center;
 }
 
 .fopip{
     background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.64)),
-    url('images/laptop-3196481_640.jpg') ;
+    url('images/erpfopip5.jpg') center no-repeat;
 }
 
 .innovation1{
     background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.64)),
-    url('images/bulb-5258341_640.jpg') 100%;
+    url('images/innovation2222.jpg') center no-repeat;
 }
 
 .infrustructure{
     background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.64)),
-    url('images/city-4011922_640.jpg');
+    url('images/infrustructure11111.jpg') center;
 }
 
 .cluster{
     background:linear-gradient(to right, rgb(0 0 0 / 92%), rgba(0, 0, 0, 0.64)),
-    url('images/sunset-6226244_640.jpg');
+    url('images/cluster12345.jpg') center;
 }
 
 .cluster:hover{
     background:linear-gradient(to right, rgba(226, 43, 43, 0.61), rgba(255, 221, 0, 0.4)),
-    url('images/sunset-6226244_640.jpg')
+    url('images/cluster12345.jpg') center;
 }
 
 .logist:hover{
     background:linear-gradient(to right, rgba(226, 43, 43, 0.61), rgba(255, 221, 0, 0.4)),
-    url('images/truck-1103291_640.jpg');
+    url('images/resourse.jpg') center;
 }
 
 .fopip:hover{
     background:linear-gradient(to right, rgba(226, 43, 43, 0.61), rgba(255, 221, 0, 0.4)),
-    url('images/laptop-3196481_640.jpg') ;
+    url('images/erpfopip5.jpg') center no-repeat;
 }
 
 .innovation1:hover{
     background:linear-gradient(to right, rgba(226, 43, 43, 0.61), rgba(255, 221, 0, 0.4)),
-    url('images/bulb-5258341_640.jpg') 100%;
+    url('images/innovation2222.jpg') center no-repeat;
 }
 
 .infrustructure:hover{
     background:linear-gradient(to right, rgba(226, 43, 43, 0.61), rgba(255, 221, 0, 0.4)),
-    url('images/city-4011922_640.jpg');
+    url('images/infrustructure11111.jpg') center;
 }
 
 .routes-box {
@@ -558,9 +564,9 @@ mat-drawer {
 }
 
 .slide-img{
-    max-width: 250px;
+    max-width: 290px;
     width: 100%;
-    height: 200px;
+    height: 220px;
 }
 
 .slider .slick-arrow{

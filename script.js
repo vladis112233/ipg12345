@@ -1,6 +1,6 @@
 $(document).ready(function (){
     $('.slider').slick({
-        slidesToShow: 5,
+        slidesToShow: 4,
         autoplay: true, // Включить автоматический скролл
         autoplaySpeed: 2000
     });
