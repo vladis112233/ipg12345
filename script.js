@@ -1,21 +1,24 @@
 $(document).ready(function (){
     $('.slider').slick({
-        slidesToShow: 4,
-        autoplay: true, // Включить автоматический скролл
-        autoplaySpeed: 2000
+        slidesToShow: 5,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 450,
+                settings: {
+                    slidesToShow: 1
+                }
+            }
+        ]
     });
 });
-
-// $(".custom-carousel").owlCarousel({
-//     autoWidth: true,
-//     loop: true
-// });
-// $(document).ready(function () {
-//     $(".custom-carousel .item").slick(function () {
-//         $(".custom-carousel .item").not($(this)).removeClass("active");
-//         $(this).toggleClass("active");
-//     });
-// });
 
 function openNav() {
     document.getElementById("mySidebar").style.width = "250px";
@@ -27,3 +30,15 @@ function closeNav() {
     document.getElementById("main").style.marginLeft = "0";
 }
 
+$(document).ready(function () {
+    $('a[href^="#"]').on('click', function (event) {
+        var target = $($(this).attr('href'));
+
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').animate({
+                scrollTop: target.offset().top
+            }, 1000);
+        }
+    });
+});

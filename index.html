@@ -18,12 +18,12 @@
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <div class="container-menu-link">
-        <a href="#">Про нас</a>
-        <a href="#">Напрямки діяльності</a>
-        <a href="#">Наші цінності</a>
-        <a href="#">Наша візія</a>
-        <a href="#">Робота з IPG</a>
-        <a href="#">Контакти</a>
+        <a href="#aboutUS">Про нас</a>
+        <a href="#router">Напрямки діяльності</a>
+        <a href="#skills">Наші цінності</a>
+        <a href="#visible">Наша візія</a>
+        <a href="#work">Робота з IPG</a>
+        <a href="#contact">Контакти</a>
     </div>
 
 </div>
@@ -41,8 +41,8 @@
             </div>
             <div class="next d-flex f-column a-center">
                 <p>Прокрутіть вниз, щоб дізнатися більше</p>
-                <a>
-                    <span class="arrow">&#709;</span>
+                <a href="#aboutUS">
+                    <img class="arrow" src="images/icons/arrow-under.png">
                 </a>
             </div>
         </div>
@@ -65,8 +65,7 @@
             </div>
             <div class="routes w-100 d-flex f-column a-center" id="router">
                 <h3 class="welcome1">Напрямки діяльності</h3>
-                <div class="routes-box ">
-
+                <div class="routes-box">
                     <div class="box">
                         <a class="link-route" href="#">
                             <img class="photo-way" src="images/resoursefix.png">
@@ -83,7 +82,7 @@
 
                     <div class="box">
                         <a class="link-route" href="#">
-                            <img class="photo-way" src="images/fopipfix.png">
+                            <img class="photo-way" src="images/erpfix.png">
                             <div class="routes-container">
                                 <div class="container-router-text">
                                     <p class="router-text">ERP-системи та FOPIP Консультування</p>
@@ -94,21 +93,6 @@
                             </div>
                         </a>
                     </div>
-
-                    <div class="box">
-                        <a class="link-route" href="#">
-                            <img class="photo-way" src="images/innovationfix.png">
-                            <div class="routes-container">
-                                <div class="container-router-text">
-                                    <p class="router-text">Інновації та Технологічні Рішення для Сталого розвитку</p>
-                                </div>
-                                <div class="open">
-                                    <p>Перейти</p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-
                     <div class="box">
                         <a class="link-route" href="#">
                             <img class="photo-way" src="images/infrustructurefix.png">
@@ -125,7 +109,7 @@
 
                     <div class="box">
                         <a class="link-route" href="#">
-                            <img class="photo-way" src="images/clusterfix.png">
+                            <img class="photo-way" src="images/clusterfix2.png">
                             <div class="routes-container">
                                 <div class="container-router-text">
                                     <p class="router-text">Розвиток кластера</p>
@@ -204,7 +188,7 @@
                 </div>
             </div>
 
-            <div class="vision">
+            <div class="vision" id="visible">
                 <div class="vision-container">
                     <h3 class="welcome1">Наша Візія</h3>
                     <p>Ми прагнемо стати глобальним катализатором змін, що приводять до створення нового економічного
@@ -215,6 +199,7 @@
             </div>
 
             <div class="slide">
+                <h1 class="welcome1">Наші проєкти</h1>
                 <div class="slider">
                     <div class="slider_item">
                         <img class="slide-img" src="images/slide/photo1.png">
@@ -289,7 +274,7 @@
             </div>
             <div class="work-with w-100 d-flex f-row a-center f-wrap j-space-evenly" id="work">
                 <div class="container-img">
-<!--                    <img class="w-100 imgabout2" src="images/hiclipart_com-2.webp">-->
+                    <img class="w-100 imgabout2" src="images/teamwork.jpg">
                 </div>
                 <div class="text-work">
                     <h3 class="welcome1">Робота з IPG</h3>
@@ -304,20 +289,22 @@
                 <img class="w-100 logo-svg" src="images/logo-IPG-2.svg">
             </div>
             <div class="container-footer d-flex f-column">
-                <div class="d-flex a-center">
-                    <span>&#128222;</span>
-                    <a>123456789@gmail.com</a>
+                <div class="text">
+                    <img class="small-icon" src="images/icons/envelope.png">
+                    <a class="link" href="mailto:">123456789@gmail.com</a>
                 </div>
                 <div class="text">
-                    <span>&#9993;</span>
-                    <a>+123604321232</a>
+                    <img class="small-icon" src="images/icons/phone.png">
+                    <a class="link" href="tel:">+123604321232</a>
                 </div>
             </div>
             <div class="d-flex f-column">
-                <a class="link-foot" (click)="scrollToAboutUs()" href="javascript:void(0)">Про нас</a>
-                <a class="link-foot" (click)="scrollToSkills()" href="javascript:void(0)">Наші цінності</a>
-                <a class="link-foot" (click)="scrollToRouter()" href="javascript:void(0)">Напрямки діяльності</a>
-                <a class="link-foot" (click)="scrollToWork()" href="javascript:void(0)">Робота з IPG</a>
+                <a class="link" href="#aboutUS">Про нас</a>
+                <a class="link" href="#router">Напрямки діяльності</a>
+                <a class="link" href="#skills">Наші цінності</a>
+                <a class="link" href="#visible">Наша візія</a>
+                <a class="link" href="#work">Робота з IPG</a>
+                <a class="link" href="#contact">Контакти</a>
             </div>
         </div>
     </div>
