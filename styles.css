@@ -88,11 +88,12 @@ body{
 }
 
 .menu-2{
-    font-size: 20px;
+    width: 20px;
+    height: 20px;
 }
 
-.menu:hover {
-    color: #ffdd00;
+.menu-2:hover {
+    filter: opacity(40%) ;
 }
 
 .box-container {
