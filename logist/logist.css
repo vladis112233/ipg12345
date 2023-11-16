@@ -67,12 +67,12 @@
 
 @media (max-width: 603px){
     .box-name-logist{
-        display: contents;
+        display: none;
     }
 }
 
 .advise{
-    width: 80%;
+    /*width: 80%;*/
     color: #FFFFFF;
     font-size: 1.5rem;
     text-align: center;
@@ -98,6 +98,7 @@
     background: #FFFFFF;
     padding: 10px;
     min-height: 142px;
+    border-radius: 10px;
 }
 
 .name-advantage{
@@ -109,4 +110,10 @@
     font-size: 1rem;
         padding: 10px;
 }
+}
+
+.box-advantage-cluster{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
