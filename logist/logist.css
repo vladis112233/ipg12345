@@ -43,7 +43,7 @@
 }
 
 .top{
-    text-align: center;
+    text-align: justify;
     max-width: 400px;
     font-size: 1.25rem;
     color: #FFFFFF;
@@ -81,4 +81,32 @@
 
 .link1{
     cursor: pointer;
+}
+
+.box-advantages2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.box-advantages-of-fopip{
+    max-width: 400px;
+    background: #FFFFFF;
+    padding: 10px;
+    min-height: 142px;
+}
+
+.name-advantage{
+    font-weight: 600;
+}
+
+@media (max-width: 400px){
+    .top{
+    font-size: 1rem;
+        padding: 10px;
+}
 }
