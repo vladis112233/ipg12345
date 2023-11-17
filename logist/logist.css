@@ -101,6 +101,14 @@
     border-radius: 10px;
 }
 
+.box-advantages-of-fopip1{
+    max-width: 400px;
+    background: #FFFFFF;
+    padding: 10px;
+    min-height: 101px;
+    border-radius: 10px;
+}
+
 .name-advantage{
     font-weight: 600;
 }
